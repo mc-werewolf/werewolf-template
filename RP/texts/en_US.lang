@@ -1,0 +1,59 @@
+werewolf-vanillapack.name=werewolf-vanillapack
+werewolf-vanillapack.description=provides and handles the fundamental roles of the Werewolf game.
+
+werewolf-vanillapack.faction.name.villager=Villager Faction
+werewolf-vanillapack.faction.description.villager=A group of ordinary people gathered in the manor. Despite living in fear of the werewolves hiding among them, they rely on their wits and courage to uncover the truth. Peace will return once all werewolves are eliminated.
+
+werewolf-vanillapack.faction.name.werewolf=Werewolf Faction
+werewolf-vanillapack.faction.description.werewolf=Predators lurking in the shadows, disguised in human form. They secretly select their prey, sowing fear and confusion throughout the village. When they deceive the villagers and gain the majority, the village becomes theirs entirely.
+
+werewolf-vanillapack.role.name.villager=Villager
+werewolf-vanillapack.role.description.villager=An ordinary person with no special abilities. Yet precisely because they lack any powers, they can speak their thoughts openly without fearing being targeted by the werewolves.
+
+werewolf-vanillapack.role.name.seer=Seer
+werewolf-vanillapack.role.description.seer=A renowned diviner known for exceptional skill. They can inspect another player and determine whether that person is a werewolf.
+
+werewolf-vanillapack.role.name.medium=Medium
+werewolf-vanillapack.role.description.medium=A spiritual medium who perceives the unseen through prayer. They can commune with the souls of the dead and learn what role the deceased held in life.
+
+werewolf-vanillapack.role.name.knight=Knight
+werewolf-vanillapack.role.description.knight=A knight who protects others with mysterious power. They can grant protection to another player, preventing one attack against them.
+
+werewolf-vanillapack.role.name.werewolf=Werewolf
+werewolf-vanillapack.role.description.werewolf=A terrifying creature hiding among the gathered guests. The werewolves win by eliminating the entire Villager faction.
+
+werewolf-vanillapack.role.name.greatwolf=Great Wolf
+werewolf-vanillapack.role.description.greatwolf=A werewolf who appears as a Villager when inspected by the Seer. However, the Medium can reveal not only their true nature but also that they are a Great Wolf.
+
+werewolf-vanillapack.role.name.madman=Madman
+werewolf-vanillapack.role.description.madman=A dangerous human who sides with the werewolves, though unaware of who they are. The Madman wins if the Werewolf faction prevails.
+
+werewolf-vanillapack.faction.victorycondition.villager=When the Werewolf faction is completely eliminated, the Villager faction wins if at least one Villager remains alive.
+werewolf-vanillapack.faction.victorycondition.werewolf=When the Villager faction is completely eliminated, the Werewolf faction wins if at least one Werewolf remains alive.
+
+werewolf-vanillapack.game.result.villagerfaction.victory.title=§aVillagers§f Win!§r
+werewolf-vanillapack.game.result.villagerfaction.victory.message=§fThe §aVillager§f Faction has won.§r
+werewolf-vanillapack.game.result.werewolffaction.victory.title=§4Werewolves§f Win!§r
+werewolf-vanillapack.game.result.werewolffaction.victory.message=§fThe §4Werewolf§f Faction has won.§r
+
+werewolf-vanillapack.skill.name.seer.divination=§aDivination§r
+werewolf-vanillapack.skill.name.medium.clairvoyance=§aClairvoyance§r
+werewolf-vanillapack.skill.name.knight.protect=§aProtection§r
+
+werewolf-vanillapack.skill.seer.form.title=Divination
+werewolf-vanillapack.skill.seer.form.description=Select a living player to divine whether they are a werewolf or not.
+werewolf-vanillapack.skill.seer.form.target.dropdown.label=Select Player Name
+werewolf-vanillapack.skill.seer.divination.result=§b%1§r§f is the %2%3§r.
+werewolf-vanillapack.skill.seer.noAvailableTargets.error=§cNo available targets to divine§r
+
+werewolf-vanillapack.skill.medium.form.title=Clairvoyance
+werewolf-vanillapack.skill.medium.form.description=Select a dead player to see if they are a werewolf.
+werewolf-vanillapack.skill.medium.form.target.dropdown.label=Select Player Name
+werewolf-vanillapack.skill.medium.clairvoyance.result=§b%1§r§f is the %2%3§r.
+werewolf-vanillapack.skill.medium.noAvailableTargets.error=§cNo available targets to clairvoyance§r
+
+werewolf-vanillapack.skill.knight.form.title=Protect
+werewolf-vanillapack.skill.knight.form.description=Select a living player to grant them protection. Protection prevents one direct attack damage.
+werewolf-vanillapack.skill.knight.form.target.dropdown.label=Select Player Name
+werewolf-vanillapack.skill.knight.protect.result=§e%s has been protected§r
+werewolf-vanillapack.skill.knight.noAvailableTargets.error=§cNo available targets to protect§r
