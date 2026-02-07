@@ -64,6 +64,7 @@ export const properties: KairoAddonProperties = {
 	],
     /** 前提アドオン */
     requiredAddons: {
+        "werewolf-gamemanager": "1.0.0-dev.1",
         /**
          * id: version (string) // "kairo": "1.0.0"
          */
