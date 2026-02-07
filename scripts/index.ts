@@ -1,7 +1,6 @@
 import { Kairo, type KairoCommand, type KairoResponse } from "@kairo-ts/router";
 import { SystemManager } from "@mc-werewolf/game-engine";
 import { properties } from "./properties";
-import { loadWerewolfDefinitionModules } from "./internal/definitionRegistryBridge";
 
 async function main(): Promise<void> {
     Kairo.init(properties);
@@ -13,7 +12,14 @@ Kairo.onActivate = async () => {
      * Write the initialization logic executed when the addon becomes active
      */
 
-    await loadWerewolfDefinitionModules();
+    await Promise.all([
+        import("./werewolf/roles").catch(() => undefined),
+        import("./werewolf/factions").catch(() => undefined),
+        import("./werewolf/settings").catch(() => undefined),
+        import("./werewolf/update").catch(() => undefined),
+        import("./werewolf/player").catch(() => undefined),
+        import("./werewolf/skills/skillHandlers").catch(() => undefined),
+    ]);
     SystemManager.getInstance().subscribeEvents();
     SystemManager.getInstance().init();
 };

@@ -1,6 +1,5 @@
-import type { FactionDefinition } from "@mc-werewolf/game-engine";
-import { registerFactionDefinitions } from "../internal/definitionRegistryBridge";
+import { DefinitionRegistry, type FactionDefinition } from "@mc-werewolf/game-engine";
 
 export const factions: FactionDefinition[] = [];
 
-registerFactionDefinitions(factions);
+DefinitionRegistry.factions.register(factions);

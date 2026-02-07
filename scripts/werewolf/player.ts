@@ -1,5 +1,4 @@
-import type { SelfPlayerData } from "@mc-werewolf/game-engine";
-import { registerRuntimePlayerDefaults } from "../internal/runtimeRegistry";
+import { DefinitionRegistry, type SelfPlayerData } from "@mc-werewolf/game-engine";
 
 export type { SelfPlayerData };
 
@@ -9,4 +8,4 @@ export const playerData: SelfPlayerData = {
     playerId: "", // playerId は各プレイヤーのIdが自動で割り振られます。(このままにしておいてください)
 };
 
-registerRuntimePlayerDefaults(playerData);
+DefinitionRegistry.player.register(playerData);
