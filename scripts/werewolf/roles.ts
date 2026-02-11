@@ -2,7 +2,7 @@ import {
     DefinitionRegistry,
     type RoleDefinition,
     type RoleGroupDefinition,
-} from "@mc-werewolf/game-engine";
+} from "@mc-werewolf/game-module";
 
 export const roleGroups: RoleGroupDefinition[] = [];
 

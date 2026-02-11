@@ -1,4 +1,4 @@
-import { DefinitionRegistry, type SelfPlayerData } from "@mc-werewolf/game-engine";
+import { DefinitionRegistry, type SelfPlayerData } from "@mc-werewolf/game-module";
 
 export type { SelfPlayerData };
 

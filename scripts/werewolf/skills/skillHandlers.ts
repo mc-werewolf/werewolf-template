@@ -1,4 +1,4 @@
-import { DefinitionRegistry, type GameEventHandlerMap } from "@mc-werewolf/game-engine";
+import { DefinitionRegistry, type GameEventHandlerMap } from "@mc-werewolf/game-module";
 
 export const roleSkillHandlers: Record<string, GameEventHandlerMap> = {};
 

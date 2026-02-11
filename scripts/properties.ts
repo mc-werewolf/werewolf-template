@@ -1,4 +1,4 @@
-import type { KairoAddonProperties } from "@kairo-ts/router";
+import type { KairoAddonProperties } from "@kairo-js/router";
 
 /**
  * 文末に # が記述されている箇所を適宜修正して使用します。
