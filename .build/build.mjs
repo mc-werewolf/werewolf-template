@@ -9,8 +9,6 @@ await esbuild.build({
     outdir: "BP/scripts",
     sourcemap: false,
 
-    mainFields: ["module", "main"],
-
     external: [
         "@minecraft/common",
         "@minecraft/debug-utilities",

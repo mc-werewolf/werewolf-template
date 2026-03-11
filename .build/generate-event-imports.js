@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 // src → root
 const ROOT = path.resolve(__dirname, "..");
 
-const SCRIPTS_ROOT = path.join(ROOT, "scripts");
+const SCRIPTS_ROOT = path.join(ROOT, "src");
 const INDEX_FILE = path.join(SCRIPTS_ROOT, "index.ts");
 
 /**
