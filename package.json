@@ -6,8 +6,9 @@
     "type": "module",
     "packageManager": "pnpm@10.31.0",
     "scripts": {
-        "build": "node src/generate-event-imports.js && rimraf BP/scripts && tsc --noEmit && node build.mjs && pnpm run deploy",
-        "deploy": "node src/deploy.js"
+        "typecheck": "tsc --noEmit",
+        "build": "node .build/generate-event-imports.js && rimraf BP/scripts && pnpm run typecheck && node .build/build.mjs && pnpm run deploy",
+        "deploy": "node .build/deploy.js"
     },
     "repository": {
         "type": "git",
