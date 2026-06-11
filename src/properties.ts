@@ -1,13 +1,13 @@
 import { MinecraftModule, type AddonProperties } from "@kairo-js/router";
 
 /**
- * 文末に # が記述されている箇所を適宜修正して使用します。
+ * 譁・忰縺ｫ # 縺瑚ｨ倩ｿｰ縺輔ｌ縺ｦ縺・ｋ邂・園繧帝←螳應ｿｮ豁｣縺励※菴ｿ逕ｨ縺励∪縺吶・
  * Modify and use where # is written at the end of the sentence as appropriate
  */
 export const properties: AddonProperties = {
     id: "werewolf-template", # // a-z & 0-9 - _
     metadata: {
-        /** 製作者の名前 */
+        /** 陬ｽ菴懆・・蜷榊燕 */
         authors: [
             //"shizuku86"
         ],
@@ -28,14 +28,14 @@ export const properties: AddonProperties = {
     dependencies: [
         {
             module_name: MinecraftModule.Server,
-            version: "2.4.0", #
+            version: "2.7.0", #
         },
         {
             module_name: MinecraftModule.ServerUi,
             version: "2.0.0", #
         },
     ],
-    /** 前提アドオン */
+    /** 蜑肴署繧｢繝峨が繝ｳ */
     requiredAddons: {
         /**
          * id: version (string) // "kairo": "1.0.0"
